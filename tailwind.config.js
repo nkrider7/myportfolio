@@ -29,13 +29,17 @@ export default {
     },
     colors: {
       'dark': '#000000',
-      'red': '#d00328',
+      'red': '#D71313',
       'white': '#ffffff',
       'sky':'#3cffff',
       'pink': '#ff00e6',
       'blue': '#1d74cb',
+      'lime':'#00ff00ff',
+      'yellow':'#fffb00',
     },
   },
-  plugins: [],
+  plugins: [
+   
+  ],
 }
 

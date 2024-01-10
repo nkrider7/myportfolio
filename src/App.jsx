@@ -8,21 +8,24 @@ import Recommand from "./Components/Recommand"
 import Contactus from "./Components/Contactus"
 import Project from "./Components/Project"
 import Experience from "./Components/Experience"
+import Terminal from "./Components/Terminal"
+
 
 
 function App() {
 
   return (
     <>
-    <div className="font-display">
+    <div className={`font-display scrollbar-hide md:scrollbar-default`}>
 
       
     <Navbar>
       
       </Navbar>
-      <Jarvis>
-        
-      </Jarvis>
+      <Jarvis/>
+      <Terminal>
+
+      </Terminal>
       <Resume>
   
       </Resume>
